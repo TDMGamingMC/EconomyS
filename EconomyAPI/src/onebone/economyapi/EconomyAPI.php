@@ -441,7 +441,7 @@ class EconomyAPI extends PluginBase implements Listener{
 	 *
 	 * @return string
 	*/
-	public function getMessage($key, $player = "console", array $value = ["%1", "%2", "%3", "%4"]){
+	public function getMessage($key, $player = "console", array $value = [ "%1", "%2", "%3", "%4"]){
 		if($player instanceof Player){
 			$player = $player->getName();
 		}
