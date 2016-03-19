@@ -30,14 +30,14 @@ permissions:
     children:
      economyauction.command.auction:
       description: Allows player to manage all the auctions
-      default: true
+      default: op
       children:
        economyauction.command.auction.start:
         description: Allows player to start auction with no limited time
-        default: true
+        default: op
        economyauction.command.auction.stop:
         description: Allows player to stop auction by force
-        default: true
+        default: op
        economyauction.command.auction.time:
         description: Allows player to start auction with limited time
         default: true
